@@ -79,3 +79,189 @@ export const workingDocuments = [
     "created": 1782864000000
   }
 ];
+
+export const lanes = [
+  {
+    "id": "bofu",
+    "name": "博富",
+    "scope": "场地与租赁",
+    "prompt": "核对场地保证书、拟签租赁主体、允许用途、押租金额和最晚签约日。",
+    "docs": [
+      {
+        "id": "archive-b796aef54bafc1143f70",
+        "name": "马主池首期项目与广东公司筹设_V4.0_20261105.md",
+        "mime": "text/plain;charset=utf-8",
+        "size": 5027,
+        "category": "产品与融资",
+        "version": "V4.0",
+        "status": "review",
+        "pinned": 1,
+        "created": 1793836800000
+      },
+      {
+        "id": "archive-0dc28505e243624a3d03",
+        "name": "V7.0_版本说明_20260831.md",
+        "mime": "text/plain;charset=utf-8",
+        "size": 2778,
+        "category": "场地合作",
+        "version": "V7.0",
+        "status": "history",
+        "pinned": 0,
+        "created": 1788134400000
+      }
+    ]
+  },
+  {
+    "id": "prospects",
+    "name": "意向客户",
+    "scope": "需求与首单",
+    "prompt": "先问客户想参与哪项服务或购买哪匹马，再核对授权、交付和付款条件。",
+    "docs": [
+      {
+        "id": "archive-7eefaa9506effaaed8be",
+        "name": "马主池投资与会员产品_V3.0_20261105.md",
+        "mime": "text/plain;charset=utf-8",
+        "size": 10158,
+        "category": "产品与融资",
+        "version": "V3.0",
+        "status": "review",
+        "pinned": 1,
+        "created": 1793836800000
+      },
+      {
+        "id": "archive-b796aef54bafc1143f70",
+        "name": "马主池首期项目与广东公司筹设_V4.0_20261105.md",
+        "mime": "text/plain;charset=utf-8",
+        "size": 5027,
+        "category": "产品与融资",
+        "version": "V4.0",
+        "status": "review",
+        "pinned": 1,
+        "created": 1793836800000
+      },
+      {
+        "id": "archive-85fd03b3c99fcb21be36",
+        "name": "14_客户版产品表面介绍.md",
+        "mime": "text/plain;charset=utf-8",
+        "size": 5361,
+        "category": "沟通口径",
+        "version": "原存档",
+        "status": "history",
+        "pinned": 0,
+        "created": 1779580800000
+      }
+    ]
+  },
+  {
+    "id": "dmz",
+    "name": "DMZ",
+    "scope": "定向合作与资方沟通",
+    "prompt": "对照历次定向沟通，确认本轮意向、出资用途和仍需书面回复的条件。",
+    "docs": [
+      {
+        "id": "archive-c14b6bac2cf84b6c8e7b",
+        "name": "36_DMZ专属四马联合马主池沟通口径_20260713.md",
+        "mime": "text/plain;charset=utf-8",
+        "size": 7899,
+        "category": "沟通口径",
+        "version": "原存档",
+        "status": "history",
+        "pinned": 0,
+        "created": 1783900800000
+      },
+      {
+        "id": "archive-a7f67918914b01c95a48",
+        "name": "51_DMZ五人500万联合马主项目_资方对外融资简版_V2.0_20260814.md",
+        "mime": "text/plain;charset=utf-8",
+        "size": 4136,
+        "category": "产品与融资",
+        "version": "V2.0",
+        "status": "history",
+        "pinned": 0,
+        "created": 1786665600000
+      },
+      {
+        "id": "archive-c8ace1c689e091f5b321",
+        "name": "广东公司与马匹项目合作研判_V1.0_20261105.md",
+        "mime": "text/plain;charset=utf-8",
+        "size": 9478,
+        "category": "内部策略",
+        "version": "V1.0",
+        "status": "review",
+        "pinned": 1,
+        "created": 1793836800000
+      }
+    ]
+  },
+  {
+    "id": "xiao",
+    "name": "肖老师 · 骊人行",
+    "scope": "马匹、授权与供应报价",
+    "prompt": "就具体马匹核实可用权限、采购报价和交付范围，逐项记下对方回复。",
+    "docs": [
+      {
+        "id": "archive-25e8118de6e6c8c54216",
+        "name": "17_发给老肖_采购报价沟通包.md",
+        "mime": "text/plain;charset=utf-8",
+        "size": 6626,
+        "category": "采购与成本",
+        "version": "原存档",
+        "status": "history",
+        "pinned": 0,
+        "created": 1779580800000
+      },
+      {
+        "id": "archive-9ed6983bc2f241c2a1d2",
+        "name": "24_骊人行实际交付边界与合作协议修订要点_20260609 · 修订稿.md",
+        "mime": "text/plain;charset=utf-8",
+        "size": 7498,
+        "category": "合同协议",
+        "version": "原存档",
+        "status": "history",
+        "pinned": 0,
+        "created": 1780963200000
+      },
+      {
+        "id": "archive-3fc720403ecc0707be1b",
+        "name": "26_骊人行合作框架协议整合优化稿_20260616 · 修订稿.md",
+        "mime": "text/plain;charset=utf-8",
+        "size": 17492,
+        "category": "合同协议",
+        "version": "原存档",
+        "status": "history",
+        "pinned": 0,
+        "created": 1781568000000
+      }
+    ]
+  },
+  {
+    "id": "haiquanwan",
+    "name": "海泉湾小马俱乐部",
+    "scope": "课程与履约",
+    "prompt": "核对课程模块、可约档期、费用与补充协议，留下待确认项。",
+    "docs": [
+      {
+        "id": "archive-f43696f03e03431ed209",
+        "name": "27_供应商签约后产品线拆分备忘_20260701.md",
+        "mime": "text/plain;charset=utf-8",
+        "size": 3166,
+        "category": "产品与融资",
+        "version": "原存档",
+        "status": "history",
+        "pinned": 0,
+        "created": 1782864000000
+      },
+      {
+        "id": "archive-6450cc5d27569f110c91",
+        "name": "28_小马俱乐部录音产品模式分析_20260701.md",
+        "mime": "text/plain;charset=utf-8",
+        "size": 10965,
+        "category": "对话与会议",
+        "version": "原存档",
+        "status": "history",
+        "pinned": 0,
+        "created": 1782864000000
+      }
+    ]
+  }
+];

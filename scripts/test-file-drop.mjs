@@ -10,7 +10,7 @@ for(const name of ['App','catalog']){let source=await readFile(new URL('../src/'
 const dom=new JSDOM('<div id="root"></div>',{url:'https://calfnai.github.io/lingyao-workspace/'});
 globalThis.window=dom.window;globalThis.document=dom.window.document;globalThis.HTMLElement=dom.window.HTMLElement;globalThis.IS_REACT_ACT_ENVIRONMENT=true;
 dom.window.HTMLElement.prototype.scrollIntoView=()=>{};
-const requests=[];globalThis.fetch=async(url,opts)=>{requests.push({url,opts});return {ok:true,json:async()=>url.endsWith('/api/upload')?{id:'test-file',name:'drop.md',mime:'text/plain',size:15}:{messages:[],files:[],hasMore:false}}};
+const requests=[];globalThis.fetch=async(url,opts)=>{requests.push({url,opts});return {ok:true,json:async()=>url.endsWith('/api/lanes')?[]:url.endsWith('/api/upload')?{id:'test-file',name:'drop.md',mime:'text/plain',size:15}:{messages:[],files:[],hasMore:false}}};
 let root;
 try{
  const {default:App}=await import(new URL('App.mjs',temp));root=createRoot(document.getElementById('root'));
